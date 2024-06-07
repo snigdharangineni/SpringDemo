@@ -4,6 +4,11 @@ public class Alien {
 	private int age;
 	private Laptop laptop;
 	
+	public Alien(int age) {
+		super();
+		this.age = age;
+	}
+	
 	public Laptop getLaptop() {
 		return laptop;
 	}
@@ -12,9 +17,9 @@ public class Alien {
 		this.laptop = laptop;
 	}
 
-	public Alien() {
-		System.out.println("In alien Constructor");
-	}
+//	public Alien() {
+//		System.out.println("In alien Constructor");
+//	}
 	
 	public int getAge() {
 		return age;
@@ -28,4 +33,6 @@ public class Alien {
 		System.out.println("In coding");
 		laptop.compile();
 	}
+
+
 }
