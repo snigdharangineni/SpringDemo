@@ -15,12 +15,11 @@ public class App
         
         Alien alien1 = (Alien) factory.getBean("alien");
         alien1.code();
-        alien1.age = 20;
-        System.out.println(alien1.age);
+
+        System.out.println(alien1.getAge());
         
-        Alien alien2 = (Alien) factory.getBean("alien");
-        alien2.code();
-        alien2.age = 30;
-        System.out.println(alien2.age);
+//        Alien alien2 = (Alien) factory.getBean("alien");
+//        alien2.code();
+//        System.out.println(alien2.age);
     }
 }
